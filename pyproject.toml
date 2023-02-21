@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "projeto-python"
+version = "0.1.0"
+description = ""
+authors = ["joao-coelho-ey <joao.coelho@br.ey.com>"]
+readme = "README.md"
+packages = [{include = "projeto_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
