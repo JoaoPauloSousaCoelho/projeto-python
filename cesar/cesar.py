@@ -6,7 +6,7 @@ def encripta(frase, n=13):
     encriptado = ''
     for letra in frase:
         letra = letra.lower()
-        if letra == ' ':
+        if letra == " ":
             encriptado += letra
         elif letra not in ascii_lowercase:
             ...
